@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos de Interés en Bootstrap</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+   <seccion class="d-flex p-6">
+    <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+        <div class="container-fluid py-5">
+          <h1 class="display-5 fw-bold">Custom jumbotron</h1>
+          <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.
+          </p>
+          <button class="btn btn-primary btn-lg" type="button"
+          data-bs-toggle="modal"
+          data-bs-target="#modal-ejemplo">
+            Example button</button>
+        </div>
+      </div>
+   </seccion>
+   <section class="col-md-6 p-5">
+    <div class="col-md-8g-3 aling-items-center">
+    <div class="mb-4 d">
+        <label class="form-label" for="name">Nombre</label>
+        <input type="text" class="form-control" id="name" placeholder="Tu nombre">
+      </div>
+      <div class="mb-3">
+        <label class="form-label" for="number" class="form-label">Teléfono</label>
+        <input type="number" class="form-control" id="number" placeholder="Tu Teléfono"">
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="mensaje" mb-3" >Deja tu mensaje</label>
+            <textarea
+            id="mensaje"
+            type="text"
+            class="form-control"
+            placeholder="Tu mensaje"></textarea>
+              </div>
+    </div>
+   </section>
+   <section>
+    <div class="container py-4">
+     <div class="card mb-8" style="width: 18rem;">
+         <div class="card-body">
+            <h3>Hector Bogarin </h3>
+            <p>Héctor es técnico en informática de Ciudad del Este, actualmente se encuentra estudiando programación</p>
+        </div>
+        <div class="card-footer">
+            <a href="mailto:hectorbogcar@gmail.com">hectorbogcar@gmail.com</a>
+        </div>
+      </div>
+    </div>
+</div>
+   </section>
+   <div class="modal fade" id="modal-ejemplo" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Este es el header</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Este es el body...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Confirmar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</html>
